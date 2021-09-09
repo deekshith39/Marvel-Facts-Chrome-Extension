@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400italic);
+
+/* body {
+    background-image: url(./Images/marvel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}  */
+
+html { 
+    background: url(Images/marvel.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* .bg {
+    
+    background-image: url("/Images/marvel.jpg");
+  
+    
+    height: 100%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+
+
+.cont p{
+    font-size: larger;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+hr {
+    border: 2px solid white;
+    opacity: 0.5;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.cont {
+    border: 2px solid white;
+    position: absolute;
+    top: 55%;
+    margin: 0px 300px;
+    text-align: center;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0.45,0.45,0.45,0.45);    
+} 
+
+h2 {
+    color: white;
+    margin-top: 10px;
+}
+
+img {
+    width: 100px;
+    position: absolute;
+}
+
+button {
+    margin-bottom: 8px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    outline: none;
+}
+
+button:hover {
+    margin-bottom: 8px;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: black;
+    background-color: white;
+}
+
+button:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 1190px) {
+    .cont {
+        top: 15%;
+        margin: auto 100px;   
+    } 
+
+}
+
+@media screen and (max-width: 650px) {
+    .cont {
+        margin: auto; 
+        margin-bottom: 15%; 
+    } 
+
+}
